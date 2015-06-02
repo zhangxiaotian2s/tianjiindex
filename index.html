@@ -1,0 +1,500 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+	<head>
+		<link rel="shortcut: icon" type="image/ico" href="images/global/logos/bitbug_favicon.ico" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>天际网 - 中国精英人士首选的职业社交平台 </title>
+		<meta name="Keywords" content="天际,tianji,网络社交,职业社交,商务社交" />
+		<meta name="Description" content="天际网是中国最大的职业社交网站,在这里你不仅可以结交好友、维护人脉还可以通过人际网络获得更好的工作和商业机会" />
+		<meta name="msapplication-task" content="name=天际网_您的人际网络比您想象的更强大; action-uri=http://my.tianji.com/dashboard/home; icon-uri=http://www.tianji.com/images/global/logos/bitbug_favicon.ico" />
+		<meta property="wb:webmaster" content="1971e38df62dbd56" />
+		<link href="stylesheets/case1/login/login_new.css?1417674657" media="screen" rel="stylesheet" type="text/css" />
+		<!--add_ http-->
+		<script src="http://static.tianji.com/javascripts/jquery.min.js" type="text/javascript"></script>
+		<script type="text/javascript" src="http://static.tianji.com/javascripts/dzporject/hhd.js"></script>
+
+	</head>
+
+	<body>
+		<!-- Google Tag Manager -->
+
+		<style type="text/css">
+			.updown{width:110px;height:415px;position:fixed;left:20px;display:none;z-index: 30;}
+		</style>
+
+		<div class="updown">
+			<div class="updownbj"></div>
+			<div class="updownc">
+				<a href="" class="up" id="up" onclick="addGaTrackEvent('app_minsite','go_up')"></a>
+				<div class="ercontent">
+					<div class="erweima" id="erweima"></div>
+
+					<span></span>
+				</div>
+
+				<a href="" class="down" id="down" onclick="addGaTrackEvent('app_minsite','go_down')"></a>
+			</div>
+		</div>
+		<!--add_ http-->
+		<script type="text/javascript" src="http://static.tianji.com/javascripts/afterwork/jquery.qrcode.min.js"></script>
+		<script type="text/javascript">
+			 //获取当前页面的地址
+			var url = "http://www.tianji.com/app?channel_code=app_minisiteqrcode";
+			if (window.location.search.indexOf("channel_code=") > -1) {
+				url = "http://www.tianji.com/app" + window.location.search;
+			}
+			jQuery('#erweima').qrcode({
+				width: 100,
+				height: 100,
+				text: url
+			});
+		</script>
+		<!-- End Google Tag Manager -->
+		<div class="mianbody" id="tianji-popup-login">
+			<div class="bg_panel">
+				<div class="top_panel">
+					<span class="logo png_ie6"></span>
+					<ul id="index_big_pic">
+						<li>
+							<span class="poster_one ren_hxb png_ie6"></span>
+							<span class="font_one png_ie6 img2">
+              </span>
+						</li>
+						<li>
+							<span class="poster_one ren_kdp png_ie6"></span>
+							<span class="font_one png_ie6 img3">
+              </span>
+						</li>
+						<li>
+							<span class="poster_one ren_pp png_ie6"></span>
+							<span class="font_one png_ie6 img1">
+              </span>
+						</li>
+					</ul>
+					<div id="msform">
+						<div class="pop-left-con">
+							<fieldset id="login1" class="pop-reg" style="display:">
+								<h3>
+            加入天际网，建立人脉
+         
+      </h3>
+								<form accept-charset="UTF-8" action="/account/accounts" class="simple_form new_account" id="tianji-pop-reg-form" method="post" novalidate="novalidate">
+									<div style="margin:0;padding:0;display:inline">
+										<input name="utf8" type="hidden" value="&#x2713;" />
+										<input name="authenticity_token" type="hidden" value="JEZoDsq5IAl7oW/VPR5EKbk9n2PRjx27NbgV/Xk+eIk=" />
+									</div>
+									<input id="channel_str" name="channel_str" type="hidden" />
+									<input id="reg_from" name="reg_from" type="hidden" value="homepage_register" />
+									<ul>
+										<li>
+											<span class="inputTip">真实姓名</span>
+											<input class="txt" id="account_name_native_display" name="account[name_native_display]" place-holder="真实姓名" regtype="chinese,notnull" size="30" type="text" />
+										</li>
+										<li>
+											<span class="inputTip">邮箱</span>
+											<input class="txt" data-register="true" id="tianji-reg-email_or_mobile" name="account[email_or_mobile]" place-holder="正确邮箱" regtype="email_mobile,notnull" size="30" type="text" />
+										</li>
+										<li>
+											<span class="inputTip">密码</span>
+											<input class="txt" id="account_password" maxlength="16" name="account[password]" place-holder="密码" regtype="notchinese,notnull" size="16" type="password" />
+										</li>
+										<li>
+											<input class="btn tianji-submit-btn" id="tianji-popup-reg-btn" name="commit" type="button" value="立即注册" />
+										</li>
+									</ul>
+								</form> <span class="xinlang_share">
+        <img alt="Homapage-final_07" src="images/login_no/homapage-final_07.png?1417674657" />
+        <a href="/auth/weibo">用新浪微博账号登录</a>
+      </span>
+								<span class="next_panel next">已有天际网账号？<a href="javascript:void(0)" >立即登录</a></span>
+							</fieldset>
+							<fieldset id="login2" class="pop-login" style="display:">
+								<h3>登录天际网</h3>
+								<form accept-charset="UTF-8" action="/index/login" class="simple_form new_account" id="tianji-pop-login-form" method="post" novalidate="novalidate">
+									<div style="margin:0;padding:0;display:inline">
+										<input name="utf8" type="hidden" value="&#x2713;" />
+										<input name="authenticity_token" type="hidden" value="JEZoDsq5IAl7oW/VPR5EKbk9n2PRjx27NbgV/Xk+eIk=" />
+									</div>
+									<input id="login_from" name="login_from" type="hidden" value="homepage_login" />
+									<ul>
+										<li>
+											<span class="inputTip">输入登录邮箱/手机</span>
+											<input class="txt" id="tianji-login-email_or_mobile" name="account[email_or_mobile]" place-holder="正确邮箱或者手机号" regtype="email_mobile,notnull" size="30" stopEvent="true" type="text" />
+										</li>
+										<li>
+											<span class="inputTip">输入登录密码</span>
+											<input class="txt" id="account_password" maxlength="16" name="account[password]" place-holder="密码" regtype="notchinese,notnull" size="16" stopEvent="true" type="password" />
+										</li>
+										<li>
+											<input class="btn tianji-submit-btn" id="tianji-popup-login-btn" name="commit" type="button" value="登录" />
+										</li>
+										<li class="height_none">
+											<input type="hidden" value="" name="return_to" />
+											<input type="hidden" name="remember" value="on" />
+											<label class="checked">保持登录状态</label>
+											<a href="/account/account_password_backs/new" class="get-back-password">找回密码</a>
+										</li>
+									</ul>
+								</form> <span class="xinlang_share border_top">
+        <img alt="Homapage-final_07" src="images/login_no/homapage-final_07.png?1417674657" />
+        <a href="/auth/weibo">用新浪微博账号登录</a>
+      </span>
+								<span class="next_panel previous">没有天际网账号？<a href="javascript:void(0)" >立即注册</a></span>
+							</fieldset>
+						</div>
+					</div>
+
+				</div>
+			</div>
+			<div class="more_panel">
+				<div class="center_panel">
+					<span class="title_one">超过<span class="color_1">2000万</span>职场精英首选的商务社交平台</span>
+					<ul class="row-fluid services-con style2">
+						<li>
+							<span class="why_go post01"></span>
+							<div class="p_cont">
+								<h3>认证真实度</h3>
+								<p>真实头像+高完整度档案+站内外好友确认，身份可信度多重保证。</p>
+							</div>
+						</li>
+						<li>
+							<span class="why_go post02"></span>
+							<div class="p_cont">
+								<h3>精英人脉圈</h3>
+								<p>平均每位用户可获10万+人脉，迅速拓展圈子，打响个人品牌。</p>
+							</div>
+						</li>
+						<li>
+							<span class="why_go post03"></span>
+							<div class="p_cont">
+								<h3>猎头/HR</h3>
+								<p>无需专门制作、投递简历，与人才需求方基于信任成为深交。</p>
+							</div>
+						</li>
+						<li class="right_no">
+							<span class="why_go post04"></span>
+							<div class="p_cont">
+								<h3>职业/商业机会</h3>
+								<p>50%+对接中层管理者、20%+与企业家和高管交流的机会。</p>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="home">
+					<div class="lessons-learned">
+						<div class="companies">
+							<a class="block" href="http://www.tianji.com/profile/langxianping7" target="_blank">
+								<span class="lighter"></span>
+								<img alt="Img_07" class="avatar lazyloadPage" data-src="images/login_no/img_07.jpg?1417674657" default_img="" />
+								<div class="info border_red">
+									<div class="info_mian">
+										<span class="name1 size_1">郎咸平</span>
+										<div class="clear"></div>
+										<span class="name1 size_2">极视智库经济学家 </span>
+									</div>
+									<span class="logo_icon"><img alt="Icon_03" class="lazyloadPage" data-src="images/login_no/icon_03.png?1417674657" /></span>
+								</div>
+							</a>
+							<a class="block" href="http://www.tianji.com/profile/gaoqunyao1" target="_blank">
+								<span class="lighter"></span>
+								<img alt="Img_03" class="avatar lazyloadPage" data-src="images/login_no/img_03.jpg?1417674657" />
+								<div class="info border_blue">
+									<div class="info_mian">
+										<span class="name1 size_1">高群耀</span>
+										<div class="clear"></div>
+										<span class="name1 size_2">新闻集团副总裁</span>
+									</div>
+									<span class="logo_icon2"><img alt="Icon_09" class="lazyloadPage" data-src="images/login_no/icon_09.png?1417674657" /></span>
+								</div>
+							</a>
+							<a class="block" href="http://www.tianji.com/profile/panqianceliapan" target="_blank">
+								<span class="lighter"></span>
+								<img alt="Img_05" class="avatar lazyloadPage" data-src="images/login_no/img_05.jpg?1417674657" default_img="" />
+								<div class="info border_red">
+									<div class="info_mian">
+										<span class="name1 size_1">潘茜</span>
+										<div class="clear"></div>
+										<span class="name1 size_2">康泰纳仕(中国)新媒体</span>
+									</div>
+									<span class="logo_icon3"><img alt="Icon_11" class="lazyloadPage" data-src="images/login_no/icon_11.png?1417674657" /></span>
+								</div>
+							</a>
+							<a class="block" href="http://www.tianji.com/profile/hushenzhi2" target="_blank">
+								<span class="lighter"></span>
+								<img alt="Img_06" class="avatar lazyloadPage" data-src="images/login_no/img_06.jpg?1417674657" />
+								<div class="info border_blue">
+									<div class="info_mian">
+										<span class="name1 size_1">胡慎之</span>
+										<div class="clear"></div>
+										<span class="name1 size_2">关系心理学专家</span>
+									</div>
+									<span class="logo_icon4"><img alt="Icon_07" class="lazyloadPage" data-src="images/login_no/icon_07.jpg?1417674657" /></span>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="clear"></div>
+				<div class="why_go_panels">
+					<div class="why_do">
+						<h4>为什么他们选择天际网？</h4>
+						<div class="people_one">
+							<span class="arrow"></span>
+							<span class="arrow1"></span>
+							<span class="poster poster01 jingying_logp" data-original="images/login_no/xyh.jpg"></span>
+							<span class="nametwo">谢英华</span>
+							<span class="nametitle">资深产品经理</span>
+							<span class="cont_mian">在天际网结识的好友都是专业背景、职业履历近似的，大
+          家讨论的话题很对工作很有帮助，由此也建立起高度互信
+          的关系。&nbsp;&nbsp;</span>
+						</div>
+						<div class="people_one people_two">
+							<span class="arrow"></span>
+							<span class="arrow1"></span>
+							<span class="poster poster02 jingying_logp" data-original="images/login_no/DanielC.jpg"></span>
+							<span class="nametwo">Daniel  Christopher</span>
+							<span class="nametitle"> 500强HR经理</span>
+							<span class="cont_mian font_03">In Tianji,job seekers can take the initiative to show themselves, so it is easier for us to 
+          understand a candidate much more all-round and deeper.&nbsp;</span>
+						</div>
+						<div class="people_one">
+							<span class="arrow"></span>
+							<span class="arrow1"></span>
+							<span class="poster poster03 jingying_logp" data-original="images/login_no/qs.jpg"></span>
+							<span class="nametwo ">齐树</span>
+							<span class="nametitle">审核编辑</span>
+							<span class="cont_mian">在我决定寻求更好的发展机会之前就已经在天际网结交了
+                一些猎头好友，大家早已推心置腹。因此他们向我发出工
+                作邀约后，很快就实现了双赢的结果。&nbsp;&nbsp;</span>
+						</div>
+						<div class="people_one people_two">
+							<span class="arrow"></span>
+							<span class="arrow1"></span>
+							<span class="poster poster04 jingying_logp" data-original="images/login_no/qx.jpg"></span>
+							<span class="nametwo">齐心</span>
+							<span class="nametitle">外资律所市场主管</span>
+							<span class="cont_mian">目前的岗位要求需要我更好地提升自己，在天际网可以有的放矢看到很多精英教育资讯展
+                示，我还获得了优惠的机会！&nbsp;&nbsp;</span>
+						</div>
+					</div>
+				</div>
+				<div class="firends_panel">
+					<h3>合作伙伴</h3>
+					<ul>
+						<li class="postion01" data-original="images/login_no/qq.jpg">
+							<a href="http://www.qq.com" target="_blank" onfocus="this.blur()"></a>
+						</li>
+						<li class="postion02" data-original="images/login_no/carrefour.jpg">
+							<a href="http://www.carrefour.com.cn/DefaultNew.aspx" target="_blank" onfocus="this.blur()"></a>
+						</li>
+						<li class="postion03" data-original="images/login_no/neteast.jpg">
+							<a href="http://www.163.com/" target="_blank" onfocus="this.blur()"></a>
+						</li>
+						<li class="postion04" data-original="images/login_no/baidu.jpg">
+							<a href="http://www.baidu.com" target="_blank" onfocus="this.blur()"></a>
+						</li>
+						<li class="postion05" data-original="images/login_no/sumsung.jpg">
+							<a href="http://www.samsung.com/cn" target="_blank" onfocus="this.blur()"></a>
+						</li>
+						<li class="postion06 right_03" data-original="images/login_no/google.jpg">
+							<a href="http://www.google.com.hk/" target="_blank" onfocus="this.blur()"></a>
+						</li>
+					</ul>
+				</div>
+
+				<div class="footer_login_panel">
+					<div class="login_c">
+						<div class="login_panel">
+							<div class="pop-left-con">
+								<div class="pop-reg">
+									<h3 class="h3_with">加入天际网，建立人脉</h3>
+									<form accept-charset="UTF-8" action="/account/accounts" class="simple_form new_account" id="tianji_form" method="post" novalidate="novalidate">
+										<div style="margin:0;padding:0;display:inline">
+											<input name="utf8" type="hidden" value="&#x2713;" />
+											<input name="authenticity_token" type="hidden" value="JEZoDsq5IAl7oW/VPR5EKbk9n2PRjx27NbgV/Xk+eIk=" />
+										</div>
+										<input id="channel_str" name="channel_str" type="hidden" />
+										<input id="reg_from" name="reg_from" type="hidden" value="homepage_bottom_register" />
+										<ul>
+											<li class="mg_20">
+												<span class="inputTip">邮箱</span>
+												<input class="txt footer_input" data-register="true" id="tianji1-reg-email_or_mobile" name="account[email_or_mobile]" place-holder="正确邮箱或者手机号" regtype="email_mobile,notnull" size="30" type="text" />
+											</li>
+											<li class="mg_20">
+												<span class="inputTip">密码</span>
+												<input class="txt footer_input" id="account_password" maxlength="16" name="account[password]" place-holder="密码" regtype="notchinese,notnull" size="16" type="password" />
+											</li>
+											<li class="mg_20">
+												<span class="inputTip">真实姓名</span>
+												<input class="txt footer_input" id="account_name_native_display" name="account[name_native_display]" place-holder="真实姓名" regtype="chinese,notnull" size="30" type="text" />
+											</li>
+											<li>
+												<input class="btn tianji-submit-btn footer_btn" name="commit" type="button" value="立即加入" />
+											</li>
+										</ul>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<span class="footer_tianji">天际网会员目录 (姓氏) :
+    &nbsp;&nbsp;&nbsp;<a href="/dict/A" target="_blank">A</a>
+    &nbsp;&nbsp;&nbsp;<a href="/dict/B" target="_blank">B</a>
+    &nbsp;&nbsp;&nbsp;<a href="/dict/C" target="_blank">C</a>
+    &nbsp;&nbsp;&nbsp;<a href="/dict/D" target="_blank">D</a>
+    &nbsp;&nbsp;&nbsp;<a href="/dict/E" target="_blank">E</a>
+    &nbsp;&nbsp;&nbsp;<a href="/dict/F" target="_blank">F</a>
+    &nbsp;&nbsp;&nbsp;<a href="/dict/G" target="_blank">G</a>
+    &nbsp;&nbsp;&nbsp;<a href="/dict/H" target="_blank">H</a>
+    &nbsp;&nbsp;&nbsp;<a>I</a>
+    &nbsp;&nbsp;&nbsp;<a href="/dict/J" target="_blank">J</a>
+    &nbsp;&nbsp;&nbsp;<a href="/dict/K" target="_blank">K</a>
+    &nbsp;&nbsp;&nbsp;<a href="/dict/L" target="_blank">L</a>
+    &nbsp;&nbsp;&nbsp;<a href="/dict/M" target="_blank">M</a>
+    &nbsp;&nbsp;&nbsp;<a href="/dict/N" target="_blank">N</a>
+    &nbsp;&nbsp;&nbsp;<a>O</a>
+    &nbsp;&nbsp;&nbsp;<a href="/dict/P" target="_blank">P</a>
+    &nbsp;&nbsp;&nbsp;<a href="/dict/Q" target="_blank">Q</a>
+    &nbsp;&nbsp;&nbsp;<a href="/dict/R" target="_blank">R</a>
+    &nbsp;&nbsp;&nbsp;<a href="/dict/S" target="_blank">S</a>
+    &nbsp;&nbsp;&nbsp;<a href="/dict/T" target="_blank">T</a>
+    &nbsp;&nbsp;&nbsp;<a>U</a>
+    &nbsp;&nbsp;&nbsp;<a>V</a>
+    &nbsp;&nbsp;&nbsp;<a href="/dict/W" target="_blank">W</a>
+    &nbsp;&nbsp;&nbsp;<a href="/dict/X" target="_blank">X</a>
+    &nbsp;&nbsp;&nbsp;<a href="/dict/Y" target="_blank">Y</a>
+    &nbsp;&nbsp;&nbsp;<a href="/dict/Z" target="_blank">Z</a>
+    </span>
+
+					<div class="clear"></div>
+                      <!--add_ http-->
+					<script src="http://static.tianji.com/javascripts/home_page.min.js?1417674657" type="text/javascript"></script>
+
+					<div id="footer_bg">
+						<div id="footer">
+							<a target="_blank" href="http://s.tianji.com/html/about.html">关于天际</a>
+							<a target="_blank" href="http://s.tianji.com/html/contact.html">联系方式</a>
+							<a target="_blank" href="http://s.tianji.com/html/link_out.html">对外合作</a>
+							<a target="_blank" href="http://s.tianji.com/html/link.html">合作伙伴</a>
+							<a target="_blank" href="http://m.tianji.com?ga_from=footer">手机客户端</a>
+							<a target="_blank" href="http://blog.tianji.com">天际Blog</a>
+							<a target="_blank" href="http://s.tianji.com/html/job.html">招贤纳士</a>
+							<a target="_blank" href="http://s.tianji.com/html/term.html">服务条款</a>
+							<a target="_blank" href="http://s.tianji.com/html/privacy.html">隐私政策</a>
+							<a target="_blank" href="http://www.tianji.com/Report">问题建议</a>
+							<br/> Copyright © 2004-2014　北京盈科时代信息技术有限公司
+							<a target="_blank" href="http://www.viadeo.com" class="font_cl">Viadeo.com</a>
+							<br/>
+							<a target="_blank" href="http://www.miibeian.gov.cn" class="font_cl">京ICP证050525号</a> 京公网安备11010502002161号
+							<a class="footer_icon" target="_blank" href="http://www.hd315.gov.cn/beian/view.asp?bianhao=010202005102400013">
+								<img src="images/login_imgs_36.gif?1417674657" />
+							</a>
+						</div>
+					</div>
+
+					<script type="text/javascript">
+						window.CHANNEL_CODE = '';
+						var ac_content_targeting = "title:未登录;industry:未登录;location:未登录;position:未登录;function:未登录;gender:未登录;source:";
+					</script>
+					<!-- Begin comScore Tag -->
+					<script type="text/javascript">
+						var _comscore = _comscore || [];
+						_comscore.push({
+							c1: "2",
+							c2: "10136995"
+						});
+						(function() {
+							var s = document.createElement("script"),
+								el =
+								document.getElementsByTagName("script")[0];
+							s.async = true;
+							s.src = (document.location.protocol == "https:" ?
+								"https://login.tianji.com/cas/js/beacon.js" :
+								"http://image.tianji.com/extjs/comscore/beacon.js");
+							el.parentNode.insertBefore(s, el);
+						})();
+					</script>
+					<!-- End comScore Tag -->
+					<noscript>
+						<img src="http://b.scorecardresearch.com/p?c1=2&c2=10136995&cv=2.0&cj=1" />
+					</noscript>
+					<script type="text/javascript">
+						var _gaq = _gaq || [];
+						_gaq.push(['_setAccount', "UA-4345674-5"]);
+						_gaq.push(['_setDomainName', 'tianji.com']);
+						_gaq.push(['_setCampaignCookieTimeout', 0]);
+						_gaq.push(['_addIgnoredRef', 'tianji']);
+						_gaq.push(['_addOrganic', 'soso', 'w']);
+						_gaq.push(['_addOrganic', 'sogou', 'query']);
+						_gaq.push(['_addOrganic', 'youdao', 'q']);
+						_gaq.push(['_setCustomVar', 1, 'M-type', 'Anonymous', 2]);
+						_gaq.push(['_setCustomVar', 2, 'M-orig', 'Anonymous', 2]);
+						_gaq.push(['_setCustomVar', 3, 'M-activness', 'Anonymous', 2]);
+						_gaq.push(['_setCustomVar', 4, 'M-oldness', 'Anonymous', 2]);
+						_gaq.push(['_setCustomVar', 5, 'M-NetworkSize', 'Anonymous', 2]);
+						_gaq.push(['_trackPageview']);
+						(function() {
+							var ga = document.createElement('script');
+							ga.type = 'text/javascript';
+							ga.async = true;
+							ga.src = ('https:' == document.location.protocol ? 'https://login.tianji.com/cas/js/ga.js' : 'http://image.tianji.com/extjs/google/ga.js');
+							var s = document.getElementsByTagName('script')[0];
+							s.parentNode.insertBefore(ga, s);
+						})();
+					</script>
+					<script type="text/javascript">
+						var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+						document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F729f7be2c98ef9eb1661dc1e8b1bd75f' type='text/javascript'%3E%3C/script%3E"));
+					</script>
+					<!--访客找回代码-->
+					<div>
+						<script type='text/javascript' src='http://file.ipinyou.com.cn/js/fk_3432_0.js' charset='utf-
+8'></script>
+					</div>
+
+				</div>
+			</div>
+		</div>
+		<!--[if IE 6]>
+  <script language="JavaScript" type="text/javascript" src="/javascripts/market/DD_belatedPNG_0.0.8a-min.js"></script>
+  <script type="text/javascript">
+          $(document).ready(function(){
+            DD_belatedPNG.fix('.png_ie6');
+          });
+  </script>
+    <![endif]-->
+
+		<script type="text/javascript" src="http://image.tianji.com/tjs/gallery/jquery.lazyload.min.js"></script>
+		<script type='text/javascript'>
+			$(function() {
+				$(".lazyloadPage").lazyload({
+					data_attribute: 'src',
+					effect: "fadeIn"
+				});
+				$('.jingying_logp, .firends_panel li').lazyload({
+					effect: "fadeIn"
+				});
+			});
+		</script>
+		<script type="text/javascript">
+			$(function() {
+				var hasSignupForm = ($('form[action="/creativity/registration/create_acount_and_background"],form[action="/account/accounts"]').length > 0) ? true : false;
+				$.ajax({
+					url: '/landing_log',
+					type: 'POST',
+					data: {
+						referer: document.referrer,
+						url: location.href,
+						ip: '10.40.16.56',
+						token: "5616dacb149459fe14313902a87fd3e4",
+						has_signup_form: hasSignupForm
+					}
+				});
+			});
+		</script>
+
+	</body>
+
+</html>

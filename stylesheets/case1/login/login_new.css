@@ -222,7 +222,7 @@ html,body {overflow-x: hidden;}
 /*
  * add job
  */
-.job_panels{ width: 1200px;overflow: hidden; margin: 0 auto;}
+.job_panels{ width: 1200px;overflow: hidden; margin: 0 auto; font-family: "微软雅黑" verdana;}
 .job_panels .title_one{width: 100%;text-align: center;font-size: 32px;color: #3B4351;font-family: '微软雅黑';float: left; margin:40px auto;}
 
 

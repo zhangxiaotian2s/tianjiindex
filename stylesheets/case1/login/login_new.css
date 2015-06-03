@@ -229,6 +229,18 @@ html,body {overflow-x: hidden;}
 
 .industry_nav{ width: 100%; margin:0 auto;}
 .industry_nav li{ height: 70px;  float: left; overflow: hidden;}
+.industry_nav li.industry_li_1{ width: 180px;}
+.industry_nav li.industry_li_2{ width: 230px;}
+.industry_nav li.industry_li_3{ width: 216px;}
+.industry_nav li.industry_li_4{ width: 236px;}
+.industry_nav li.industry_li_5{ width: 204px;}
+.industry_nav li.industry_li_6{ width: 134px;}
+.industry_nav li.img_1000.industry_li_1{ width: 160px;}
+.industry_nav li.img_1000.industry_li_2{ width: 180px;}
+.industry_nav li.img_1000.industry_li_3{ width: 180px;}
+.industry_nav li.img_1000.industry_li_4{ width: 196px;}
+.industry_nav li.img_1000.industry_li_5{ width: 170px;}
+.industry_nav li.img_1000.industry_li_6{ width: 114px;}
 .industry_nav li.img_1000 a h3{ font-size: 16px;}
 .industry_nav li.img_1000 a h3 span{ font-size: 16px;}
 .industry_nav li.img_1000 a  span.job_icon{ margin: 0px 4px;}
@@ -245,18 +257,6 @@ html,body {overflow-x: hidden;}
 .industry_nav li a:hover h3 span{ color: #FFFFFF;}
 .industry_nav li a:hover span.job_icon{ background-position-y:0;}
 
-.industry_li_1{ width: 180px;}
-.industry_li_2{ width: 230px;}
-.industry_li_3{ width: 216px;}
-.industry_li_4{ width: 236px;}
-.industry_li_5{ width: 204px;}
-.industry_li_6{ width: 134px;}
-.img_1000.industry_li_1{ width: 160px;}
-.img_1000.industry_li_2{ width: 180px;}
-.img_1000.industry_li_3{ width: 180px;}
-.img_1000.industry_li_4{ width: 196px;}
-.img_1000.industry_li_5{ width: 170px;}
-.img_1000.industry_li_6{ width: 114px;}
 .industry_nav li a  span.job_icon_1{background-position-x: 0px; margin-left: 8px;}
 .industry_nav li a  span.job_icon_2{background-position-x: -66px; }
 .industry_nav li a  span.job_icon_3{background-position-x: -132px;margin:0px 14px;}
@@ -278,6 +278,7 @@ html,body {overflow-x: hidden;}
 .job_panel_head h2{ font-size: 26px; color: #7e8289; line-height: 50px; height: 50px; width: 140px; text-align: center; background:#FFFFFF url(../../../images/login_no/job_head_lef_icon.jpg) center left no-repeat;}
 .job_panel_head a.more{ display: block; height: 50px;width: 60px; text-align: right; position: absolute; right: 0px;top: 0px; line-height: 50px; background: #FFFFFF; color: #4e4e4e; font-size: 14px; text-decoration: none; }
 .job_panel_head a.more:hover{ color: #ec7064;}
+.job_panel_box{ margin:30px 0px;}
 .job_panel_box dl.img_1000{ margin-right: 24px; width: 230px;}
 .job_panel_box dl{ width: 264px; height: 120px ; overflow: hidden; float: left; margin-right: 45px; display: inline; border: #e5e5e5 solid 1px;}
 .job_panel_box dl dt{ height: 44px; width: 90%; padding: 0px 5%; line-height: 44px; font-size: 16px; background: #f0f2f4; }
@@ -286,7 +287,7 @@ html,body {overflow-x: hidden;}
 .job_panel_box dl dt a span{ font-size: 16px; color: #EC7064;}
 .job_panel_box dl dd{ width: 90%; margin: 0px 5%; height: 38px; line-height: 38px; border-bottom: #e5e5e5 dotted 1px;}
 .job_panel_box dl dd a{color:#666666;font-size: 14px;  width: 100%; text-decoration: none;}
-.job_panel_box dl dd a:hover{ color: #EC7064; clear: both;}
+.job_panel_box dl dd a:hover{ color: #EC7064; clear:both;}
 .job_panel_box dl dd a span{ color: #EC7064; float: right;}
 
 

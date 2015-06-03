@@ -286,9 +286,9 @@ html,body {overflow-x: hidden;}
 .job_panel_box dl dt a:hover{ color: #EC7064;}
 .job_panel_box dl dt a span{ font-size: 16px; color: #EC7064;}
 .job_panel_box dl dd{ width: 90%; margin: 0px 5%; height: 38px; line-height: 38px; border-bottom: #e5e5e5 dotted 1px;}
-.job_panel_box dl dd a{color:#666666;font-size: 14px;  width: 100%; text-decoration: none;}
+.job_panel_box dl dd a{ display:block; width:100%; position: relative; height: 38px; line-height: 38px; color:#666666;font-size: 14px;   text-decoration: none;}
 .job_panel_box dl dd a:hover{ color: #EC7064; clear:both;}
-.job_panel_box dl dd a span{ color: #EC7064; float: right;}
+.job_panel_box dl dd a span{ color: #EC7064;  display: block; height: 38px; position: absolute; right: 0px; top: 0px;}
 
 
 
